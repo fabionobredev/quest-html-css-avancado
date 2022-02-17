@@ -1,0 +1,54 @@
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section .image {
+  width: 335px;
+  height: 430px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+section .image h1,
+section .image p {
+  margin-left: 30px;
+  padding: 2px;
+  color: #ffffff;
+}
+
+section .image h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+section .image p {
+  font-size: 1.7rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+section .image-rome {
+  background: url('../images/6.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+section .image-StarryNight1 {
+  background: url('../images/3.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+section .image-SandAndSea {
+  background: url('../images/4.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+section .image-StarryNight2 {
+  background: url('../images/5.jpg') center center no-repeat;
+  background-size: cover;
+}
