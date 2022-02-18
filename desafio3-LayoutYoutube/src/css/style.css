@@ -18,7 +18,8 @@ main {
 
 .video-principal .videoDestaque {
   width: 90%;
-  background-color: aqua;
+  background: url('https://via.placeholder.com/700x400/0000FF/808080/?text=Video Principal') center center no-repeat;
+  background-size: cover;
   margin-top: 20px;
   padding-bottom: 50%;
 }
@@ -42,7 +43,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: yellow;
+  background: url('https://via.placeholder.com/200x120/FFFF00/000000/?text=Propaganda') center center no-repeat;
+  background-size: cover;
   margin-top: 20px;
 }
 
@@ -75,7 +77,8 @@ main {
 .video {
   min-width: 200px;
   min-height: 120px;
-  background-color: blue;
+  background: url('https://via.placeholder.com/200x120/FF0000/FFFFFF/?text=Video Destaque') center center no-repeat;
+  background-size: cover;
 }
 
 .video-secudario1 {
