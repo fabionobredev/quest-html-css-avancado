@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: start;
+  padding: 5px;
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-align: start;
+  padding: 5px;
+}

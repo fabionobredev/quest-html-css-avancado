@@ -1,0 +1,104 @@
+main {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 'principal principal propaganda'
+                       'principal principal secundario1'
+                       'principal principal secundario2'
+                       'principal principal secundario3';
+}
+
+.video-principal {
+  grid-area: principal;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-principal .videoDestaque {
+  width: 90%;
+  background-color: aqua;
+  margin-top: 20px;
+  padding-bottom: 50%;
+}
+
+.video-principal .informacoes {
+  width: 90%;
+}
+
+.propaganda {
+  grid-area: propaganda;
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.propaganda .box-propaganda{
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  margin-top: 20px;
+}
+
+.section-video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.box-videoInformation {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.information {
+  margin-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.information h1 {
+  display: inline;
+}
+
+.video {
+  min-width: 200px;
+  min-height: 120px;
+  background-color: blue;
+}
+
+.video-secudario1 {
+  grid-area: secundario1;
+}
+
+.video-secudario2 {
+  grid-area: secundario2;
+}
+
+.video-secudario3 {
+  grid-area: secundario3;
+}
+
+@media(max-width: 1015px) {
+
+  main {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'principal'
+                         'propaganda'
+                         'secundario1'
+                         'secundario2'
+                         'secundario3';
+  }
+
+}
